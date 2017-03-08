@@ -7,6 +7,6 @@ module.exports = function() {
   return through.obj(function(file, enc, cb) {
     var fileDate = new Date();
 
-    return cb(null, fs.utimes(file.path, fileDate, fileDate, function(){}));
+    return fs.utimes(file.path, fileDate, fileDate, cb);
   });
 };
