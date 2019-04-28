@@ -1,6 +1,6 @@
 {
   "name": "gulp-touch-cmd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Change file access and modification times",
   "license": "MIT",
   "repository": "bmatzner/gulp-touch-cmd",
@@ -10,13 +10,13 @@
   },
   "main": "index.js",
   "dependencies": {
-    "graceful-fs": "^4.1.2",
-    "through2": "^2.0.3"
+    "graceful-fs": "^4.1.15",
+    "through2": "^3.0.1"
   },
   "devDependencies": {
-    "gulp": "~3.5.5",
-    "gulp-mocha": "~0.4.1",
-    "mocha": "~2.2.1"
+    "gulp": "~4.0.1",
+    "gulp-mocha": "~6.0.0",
+    "mocha": "~6.1.4"
   },
   "keywords": [
     "gulp"
